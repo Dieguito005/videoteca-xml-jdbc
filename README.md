@@ -4,7 +4,7 @@ Actividad práctica de las Unidades 1 y 2 de **Acceso a Datos** (2º DAM, U-tad)
 
 Aplicación Java para que un coleccionista de cine gestione su videoteca en PostgreSQL. El programa crea por código la base de datos y la tabla `peliculas`, inserta 5 películas de prueba, genera un XML con 3 películas más, lo importa a la base de datos (**Método A**) y después vuelca toda la tabla a un nuevo XML (**Método B**).
 
-**Vídeo demostrativo:** [ver en Loom](PEGA_AQUI_EL_ENLACE_DE_LOOM)
+**Vídeo demostrativo:** [ver en Loom](https://www.loom.com/share/daf876cf98a64eeda45e0b09cfb31b8d)
 
 ## Tecnologías
 
