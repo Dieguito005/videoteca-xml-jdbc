@@ -1,0 +1,13 @@
+# OPCIONAL: solo si no tienes PostgreSQL instalado y sí tienes Docker.
+# Arranca PostgreSQL en localhost:5433 con usuario "postgres" y contraseña "postgres":
+#   docker compose up -d
+# La base de datos "videoteca" y la tabla "peliculas" las crea el programa Java.
+services:
+  postgres:
+    image: postgres:17
+    container_name: videoteca-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
