@@ -18,7 +18,7 @@ import java.sql.SQLException;
  */
 public final class ConexionBD {
 
-    /** Servidor y puerto de PostgreSQL (el puerto por defecto es 5432). */
+    /** Servidor y puerto de PostgreSQL (el puerto por defecto es 5433). */
     private static final String SERVIDOR = "jdbc:postgresql://localhost:5433/";
 
     /** Base de datos que existe siempre en cualquier instalación de PostgreSQL. */
